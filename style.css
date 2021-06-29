@@ -1,0 +1,18 @@
+tr {
+    width: 100%;
+}
+table {
+    margin: 0 auto;
+    padding: 50px;
+}
+th, td {
+    border: 2px solid brown;
+    padding: 0 50px;
+}
+tr:nth-child(2n) {
+    background-color: darkgray;
+}
+th {
+    background-color: gray;
+    color: brown;
+}
